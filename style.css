@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Inter:wght@800&family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+/* 
+font-family: 'Barlow', sans-serif; --> p
+font-family: 'Inter', sans-serif; --> h2
+font-family: 'Lato', sans-serif; --> h1
+*/
+
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0em;
+   padding: 0em;
+}
+
+body {
+  background-color: #ffffff;
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+}
+
+main{
+  margin-bottom:70px;
+}
+
+footer {
+  background-color: #000f14;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* STYLE TEXT */
+h1 {
+  color: #ffff;
+  font-family: 'Lato', sans-serif;
+  font-size: 400%;
+  padding: 200px;
+}
+
+h2 {
+  color: #7e52a0;
+  font-family: 'Inter', sans-serif;
+  font-size: 300%;
+  padding-top: 30px;
+}
+
+p {
+  color: #000f14;
+  font-family: 'Barlow', sans-serif;
+  font-size: 150%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 10px;
+}
+
+label
+{
+  font-size: 110%;
+}
+
+#home-title
+{
+  text-align: center;
+  padding-top: 300px;
+  padding-bottom: 350px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 800%;
+}
+
+#footer-info
+{
+  color: #ffffff;
+  font-size: 80%;
+}
+
+#home-h2
+{
+  background-image: linear-gradient(to right, #f0dbff , #9994ff);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 0em;
+  font-size: 400%;
+}
+
+#home-p
+{
+  margin-top: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  
+  font-size: 205%;
+  border: 3px solid #7e52a0;
+}
+
+#quote
+{
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+  color:#7e52a0;
+  font-family: 'Questrial', sans-serif;
+  font-size: 5em;
+  background-image: linear-gradient(to right, #f0dbff , #9994ff);
+}
+
+#message1
+{
+  margin-top: 10px;
+  
+  color: #ffffff;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
+
+#message2
+{
+  color: #ffffff;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
+
+#message3
+{
+  color: #ffffff;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
+
+.SMbtn-text
+{
+  color:#ffffff;
+  font-size: 115%;
+}
+
+.about-h2
+{
+  background-image: linear-gradient(to right, #f0dbff , #9994ff);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+/* STYLE IMAGES */
+img {
+  max-height: 25%;
+  max-width: 25%;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 25px;
+}
+
+img#sketches
+{
+  max-height: 20%;
+  max-width: 20%;
+}
+
+img#clothingRack
+{
+  max-height: 28%;
+  max-width: 28%;
+}
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color: #000f14;
+  overflow: hidden;
+  padding: 1em;
+  text-align: right;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: #ffffff;;
+  font-size: 1.3em;
+  padding: 1em;
+}
+
+li a#home-nav:hover {
+  background-color: #7e52a0;
+}
+
+li a#about-nav:hover {
+  background-color: #33315e;
+}
+
+li a#positivity-nav:hover {
+  background-color: #7e52a0;
+}
+
+li a#takeAction-nav:hover {
+  background-color: #33315e;
+}
+
+/* STYLE BUTTONS */
+#quoteBtn
+{
+  background-color:#7e52a0;
+  border-color: #7e52a0;
+  color:#ffffff;
+  font-size: 105%;
+  
+  margin-top: 10px;
+  margin-bottom: 30px;
+  
+  padding: 2em;
+  width: 10em;
+  border-radius: 1.5em;
+}
+
+#inputBtn
+{
+  background-color:#7e52a0;
+  border-color: #7e52a0;
+  color:#ffffff;
+  font-size: 85%;
+  
+  margin-top: 10px;
+  margin-bottom: 20px;
+  
+  padding: 1em;
+  width: 10em;
+  border-radius: 1.5em;
+}
+
+.socialMedia-btn
+{
+  background-color:#7e52a0;
+  border-color: #7e52a0;
+  
+  margin-top: 10px;
+  margin-bottom: 20px;
+  
+  padding: 1em;
+  width: 10em;
+  border-radius: 1.5em;
+}
+
+/* Scroll Feature  */
+a#scrollBtn
+{
+  position: absolute;
+  height: 3em;
+  width: 1.8em;
+  border: 0.2em solid white;
+  border-radius: 3em;
+}
+
+a#scrollBtn:before
+{
+  position: absolute;
+  content: "";
+  height: 0.6em;
+  width: 0.6em;
+  top: 0.5em;
+  margin-left: -5px;
+  background-color: white;
+  border-radius: 50%;
+  animation: move-down 2.5s infinite;
+}
+@keyframes move-down
+{
+  80%
+  {
+    opacity: 0.5;
+  }
+  100%
+  {
+    transform: translateY(1.5em);
+    opacity: 0;
+  }
+}
+
+a#scrollBtn:after
+{
+  position: absolute;
+  content: "Scroll";
+  width: 2em;
+  display: block;
+  text-align: center;
+  bottom: -1.5em;
+  left: -0.3em;
+  color: white;
+  letter-spacing: 0.8px;
+}
+
+/* ADD MORE! */
+#home-heading {
+  width: 100%;
+  height: 900px;
+  background: url("assets/WeAreFashion_.jpg");
+  background-size: cover;
+}
+
+#page-heading
+{
+  background-image: linear-gradient(to right, #7e52a0 , #33315e);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#takeAction-main
+{
+  background-image: linear-gradient(to right, #f0dbff , #9994ff);
+  margin-top: 0em;
+  margin-bottom: 0em;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+#generator
+{
+  background-color: #33315e;
+  color:#ffffff;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  font-size: 100%;
+}
+
+#inputBox
+{
+  background-color: #33315e;
+  color:#ffffff;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 115%;
+}
+
+section
+{
+  height: 50px;
+  position: relative;
+}
