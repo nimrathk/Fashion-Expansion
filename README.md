@@ -4,8 +4,6 @@
 
 ## Made by Nimrath K for the GirlsWhoCode Summer Immersion Program's Activist Toolkit
 
-## Project Link: https://9f2c4521-2167-4788-aefc-96b54f57afcc-00-1ldgs4mxgt3wd.global.replit.dev/ 
-
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Purpose:
