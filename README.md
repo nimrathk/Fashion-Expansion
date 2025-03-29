@@ -1,5 +1,3 @@
-# nimrathk.github.io
-
 # Title: Fashion Expansion
 
 ## Made by Nimrath K for the GirlsWhoCode Summer Immersion Program's Activist Toolkit
